@@ -3,7 +3,7 @@
 1. [Compound Components 패턴](./src/patterns/compound-components/README.md)
 2. [Control Props 패턴](./src/patterns/control-props/README.md)
 3. [Custom Hook 패턴](./src/patterns/custom-hook/README.md)
-4. Props Getters 패턴
+4. [Props Getters 패턴](./src/patterns/props-getters/README.md)
 5. State reducer 패턴
 
 # 참조
