@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Usage as CompoundComponent } from './patterns/compound-components/Usage';
 
 function App() {
   return (
@@ -7,6 +8,11 @@ function App() {
       <StyledTitleContainer>
         <h1>유용한 리액트 패턴들</h1>
       </StyledTitleContainer>
+
+      <StyledPatternContainer>
+        <h2>Compound components 패턴</h2>
+        <CompoundComponent />
+      </StyledPatternContainer>
     </StyledContainer>
   );
 }
