@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import styled from 'styled-components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledContainer>
+      <StyledTitleContainer>
+        <h1>유용한 리액트 패턴들</h1>
+      </StyledTitleContainer>
+    </StyledContainer>
   );
 }
 
 export default App;
+
+const StyledContainer = styled.div`
+  text-align: center;
+  font-family: sans-serif;
+`;
+
+const StyledTitleContainer = styled.div`
+  background-color: #1428a0;
+  color: white;
+  padding: 35px;
+
+  h1 {
+    margin: 0;
+  }
+`;
+
+const StyledPatternContainer = styled.div`
+  padding: 30px;
+  border-bottom: 2px solid #d3d3d3;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    border: none;
+  }
+`;
