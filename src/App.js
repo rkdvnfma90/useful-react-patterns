@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Usage as CompoundComponent } from './patterns/compound-components/Usage';
 import { Usage as ControlProps } from './patterns/control-props/Usage';
+import { Usage as CustomHook } from './patterns/custom-hook/Usage';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
       <StyledPatternContainer>
         <h2>Control props 패턴</h2>
         <ControlProps />
+      </StyledPatternContainer>
+      <StyledPatternContainer>
+        <h2>Custom Hook 패턴</h2>
+        <CustomHook />
       </StyledPatternContainer>
     </StyledContainer>
   );
