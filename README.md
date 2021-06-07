@@ -1,6 +1,6 @@
 # 리액트 유용한 패턴
 
-1. Compund Components 패턴
+1. Compound Components 패턴
 2. Control Props 패턴
 3. Custom Hook 패턴
 4. Props Getters 패턴
