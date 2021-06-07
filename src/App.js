@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Usage as CompoundComponent } from './patterns/compound-components/Usage';
+import { Usage as ControlProps } from './patterns/control-props/Usage';
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
       <StyledPatternContainer>
         <h2>Compound components 패턴</h2>
         <CompoundComponent />
+      </StyledPatternContainer>
+
+      <StyledPatternContainer>
+        <h2>Control props 패턴</h2>
+        <ControlProps />
       </StyledPatternContainer>
     </StyledContainer>
   );
