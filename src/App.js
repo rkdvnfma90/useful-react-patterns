@@ -4,6 +4,7 @@ import { Usage as CompoundComponent } from './patterns/compound-components/Usage
 import { Usage as ControlProps } from './patterns/control-props/Usage';
 import { Usage as CustomHook } from './patterns/custom-hook/Usage';
 import { Usage as PropsGetters } from './patterns/props-getters/Usage';
+import { Usage as StateReducer } from './patterns/state-reducer/Usage';
 
 function App() {
   return (
@@ -30,6 +31,11 @@ function App() {
       <StyledPatternContainer>
         <h2>Props Getters 패턴</h2>
         <PropsGetters />
+      </StyledPatternContainer>
+
+      <StyledPatternContainer>
+        <h2>State Reducer 패턴</h2>
+        <StateReducer />
       </StyledPatternContainer>
     </StyledContainer>
   );
